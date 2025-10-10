@@ -9,7 +9,7 @@ def menu():
     saldo = 0
     while True:
         print("=== MENU DO CAIXA ELETRONICO === \n")
-        opcao = int(input("bem vindo ao caixa eletronico! \n digite 1 para depositar \n digite 2 para sacar \n digite 3 para consultar o saldo \n digite 4 para ver o histórico de transações \n digite 5 para sair: \n :"))
+        opcao = int(input("bem vindo ao caixa eletronico! \n  1 - depositar \n  2 - sacar \n  3 - consultar o saldo \n  4 - ver o histórico de transações \n  5 - sair: \n :"))
     
         if opcao == 1:
             valor_deposito = int(input("digite o valor que voce quer depositar: "))
