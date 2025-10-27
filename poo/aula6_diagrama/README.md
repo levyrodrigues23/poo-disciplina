@@ -2,7 +2,7 @@
 
 Descrevendo melhor cada trecho do arquivo que foi designado para ser feito, primeiramente temos duas classes principais, respectivamente chamadas Conta e Banco. Vou entrar um pouco em detalhes sobre cada método que foi criado em ambas as classes
 
-Entre as classes principais, temos a classe Conta
+Entre as classes principais, temos a classe Conta e a classe Banco, amplas explicadas respectivamente abaixo.
 
 ### Classe Conta:
     a classe conta tem um construtor primeiramente, que recebe como parametro o numero e a agencia. Entre os métodos, há 3 sendo mais específico: creditar, debitar e get_saldo.
