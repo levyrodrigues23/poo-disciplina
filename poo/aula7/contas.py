@@ -5,8 +5,8 @@ class Conta:
         self.numero = numero
         self.saldo = 0.0
         self.agencia = agencia
-        self.banco = banco
         self.bloqueado = False
+        self.banco = banco
         
     def creditar(self, valor):
         if self.bloqueado:
@@ -49,6 +49,7 @@ class Conta:
     def alterar_banco(self, novo_banco):
         self.banco = novo_banco
         print(f"o banco da conta {self.numero} foi alterado para {novo_banco} com sucesso!")
+        
     def alterar_agencia(self, nova_agencia):
         self.agencia = nova_agencia
         print(f"a agencia da conta {self.numero} foi alterada para {nova_agencia} com sucesso!")
