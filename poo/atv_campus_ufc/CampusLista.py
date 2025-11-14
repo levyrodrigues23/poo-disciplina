@@ -19,6 +19,8 @@ class UfcCampus:
         self.campus[nome_campus].append(curso_novo)
         print(self.campus)
         
+        # é bem provavel que eu mude essa logica futuramente aplicando outro arquivo so para os comandos relacionados aos cursos.
+        
     def verificar_os_campus(self):
         if not self.campus:
             print("nenhum campus foi cadastrado aqui ainda.")
@@ -118,6 +120,10 @@ def menu():
         else:
             print("opcao invalida, tente novamente.")
             
+print("Bem vindo ao sistema de gerenciamento de campus da UFC!\n")
+
 if __name__ == "__main__":
     ufc = UfcCampus()
     menu()
+
+       
