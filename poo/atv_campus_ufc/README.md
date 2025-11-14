@@ -6,7 +6,7 @@
 ## ```CampusLista.py```
 > - Criei um arquivo chamado ```CampusLista.py``` com o objetivo de armazenar os campus de itapaje, e usei a lógica de criar um dicionário para poder mapear melhor em cima dos cursos que abrangiam o respectivo dicionário. Esse arquivo contém alguns métodos específicos que foram aplicados
 
-## ```CampusLista.py```
+## ```main.py```
 > - Há tambem um arquivo chamado ```main.py``` responsaval por rodar o script, usei ```if __name__ = "__main__"``` por segurança. 
 
 ## Como rodar o código?
