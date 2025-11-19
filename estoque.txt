@@ -1,0 +1,22 @@
+-- estoque de comida --
+sanduiche: 2
+estrogonofe: 4
+macarrão: 7
+goiaba: 9
+carne: 4
+frango: 5
+pastel: 3
+miojo: 7
+bolinha: 8
+sardinha: 4
+-- estoque de bebida --
+água: 20
+café: 15
+chá: 10
+suco: 12
+refrigerante: 18
+cerveja: 25
+vinho: 8
+cachaça: 5
+energético: 7
+leite: 14
